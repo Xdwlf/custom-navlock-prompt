@@ -1,0 +1,38 @@
+.app {
+  font-family: "Roboto";
+  text-align: center;
+}
+
+.root {
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  border: 1px solid black;
+  padding: 5px;
+}
+
+.prompt {
+  display: block;
+  position: absolute;
+  left: calc(50% - 150px);
+  width: 300px;
+  padding: 20px;
+  border-radius: 5px;
+  border: 1px solid teal;
+  box-shadow: 2px 2px 5px teal;
+  top: calc(50% - 80px);
+  background-color: white;
+}
+
+.menu {
+  display: flex;
+  justify-content: space-around;
+}
+
+.view {
+  padding: 30px;
+}
+
+.inputGroup {
+  padding-top: 10px;
+}
